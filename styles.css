@@ -1,0 +1,22 @@
+.flexContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #030039;
+    color: #FFE4D9;
+    font-size: 30px;
+  }
+  .header a:hover {
+    color: #004F70;
+  }
+  .header a.active {
+    color: #FFE4D9;
+  }
+
+h1{
+    color:rgb(1, 0, 73);
+    font-size: 20;
+}
