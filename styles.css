@@ -45,15 +45,7 @@ form {
   border-radius: 10px;
   object-fit: cover;
 }
-h1{
-  color:#030039;
-  position: absolute;
-  top:40%;
-  bottom:50%;
-  left:25%;
-  size:400px;
-  font-size: 150px;
-}
+
 h2{
   text-align: center;
   font-size: 3vw;
@@ -64,10 +56,50 @@ p{
   font-size: 2vw;
   text-align: center;
 }
-.Background{
-  width:100%;
-  height: 100%;
-  background-size: cover; 
-  background-position: center;
+
+@media(max-width:700px){
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px; 
+    padding: 20px;
+    margin-top: 20%;
+    font-size: 1vw;
+  }
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 15px;
 }
 
+.Titel{
+color:rgb(1, 0, 73);
+  font-size: 200%;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.info{
+  color:rgb(1, 0, 73);
+  font-size: 200%;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.info2{
+  color:rgb(1, 0, 73);
+    font-size: 200%;
+    text-align: right;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+  }
+  footer {
+    background-color: rgb(1, 0, 73);
+    text-align: center;
+    color: #FFE4D9;
+    padding: 0.5em;
+    margin-top: 100px;
+  }
