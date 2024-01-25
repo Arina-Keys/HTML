@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="flexContainer">
+        <a class="button" href="swb1.html">Home</a>
+        <a class="button" href="swb2.html">Foto Album</a>
+        <a class="button" href="swb4.html">Forum</a>
+    </nav>
+    <h2> Feedback Forum</h2>
+    <p>Please leave your feedback here. </p>
+    
+    <form>
+        <div>
+            <label for="First-and-Last-Name">Enter Your first and last name: <input id="First-and-Last-Name"
+                    name="First-and-Last-Name" type="text" required /></label>
+        </div>
+        <div>
+            <label for="Email">Enter Your Email: <input id="Email" name="Email" type="text" required /></label>
+        </div>
+        <div>
+            <label for="Feedback">Leave here your feedback:</label>
+        </div>
+        <div>
+            <textarea id="Feedback" name="Feedback" rows="3" cols="30"></textarea>
+        </div>
+        <h2>Fun Questions! </h2>
+        <div>
+            <p2>What type of snowboard do you prefer?</p2><br>
+            <input type="radio" id="Freestyle" name="fav_style" value="Freestyle">
+            <label for="Freestyle">Freestyle</label><br>
+            <input type="radio" id="All-Mountain" name="fav_style" value="All-Mountain">
+            <label for="All-Mountain">All-Mountain</label><br>
+            <input type="radio" id="Freeride" name="fav_style" value="Freeride">
+            <label for="Freeride">Freeride</label><br>
+            <input type="radio" id="Powder" name="fav_style" value="Powder">
+            <label for="Powder">Powder</label><br>
+        </div>
+        <br>
+        <div> 
+            <p2>Which off-season training activities do you incorporate into your routine? (Select all that apply)</p2><br>
+            <input type="checkbox" id="training1" name="training1" value="Strength training">
+            <label for="training1">Strength training</label><br>
+            <input type="checkbox" id="training2" name="training2" value="Cardiovascular exercises">
+            <label for="training2">Cardiovascular exercises</label><br>
+            <input type="checkbox" id="training3" name="training3" value=" Yoga/Flexibility training">
+            <label for="training3"> Yoga/Flexibility training</label><br>
+            <input type="checkbox" id="training4" name="training4" value="Cross-training in other sports">
+            <label for="training4">Cross-training in other sports</label><br>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>
