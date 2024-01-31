@@ -97,8 +97,9 @@ color:rgb(1, 0, 73);
     width: 100%;
   }
   footer {
+    display: flex;
+    justify-content: center;
     background-color: rgb(1, 0, 73);
-    text-align: center;
     color: #FFE4D9;
     padding: 0.5em;
     margin-top: 100px;
